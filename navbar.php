@@ -29,11 +29,11 @@
             <div class="left_logo" style=" background-color: transparent;"></div>
 
             <li><a class="fd_pg" href="index.php" >Home</a></li>
-            <li><a href="events.php">Events</a></li>
-            <li><a href="shows.php">Shows</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Shows</a></li>
             <li><a href="articles.php">Articles</a></li>
             <li><a href="interviews.php">Interviews</a></li>
-            <li><a href="gallery.php">Gallery</a></li>
+            <li><a href="#">Gallery</a></li>
             <li><a href="contact.php">Contact Us</a></li>
             <li><a href="admin/index.php">Admin</a></li>
             <li class="icon">
