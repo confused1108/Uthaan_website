@@ -76,6 +76,5 @@ include 'navbar.php';
 
     </div>
 </div>
-<!-- content -->
 </body>
 </html>
