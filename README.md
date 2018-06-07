@@ -1,4 +1,4 @@
-# Uthaan_website
+<p># Uthaan_website</p>
 <p><strong>Uthaan&rsquo;s official Website</strong></p>
 <p><strong>Technologies Used :</strong> Core PHP, MySQL, HTML, CSS, Javascript, Jquery, Bootstrap 3</p>
 <p><strong>To set up website locally:</strong></p>
@@ -68,5 +68,9 @@
 <li>Interface for accessing database : PDO</li>
 <li>Admin credentials : username- admin, password - admin</li>
 </ul>
+<p><strong>Tutorials :</strong></p>
+<ul>
+<li>How to upload database : <a href="https://www.youtube.com/watch?v=XxHJzTfWg2Y">https://www.youtube.com/watch?v=XxHJzTfWg2Y</a></li>
+<li>How to connect database :&nbsp;<a href="https://www.youtube.com/watch?v=EM3LsdisFSw">https://www.youtube.com/watch?v=EM3LsdisFSw</a></li>
+</ul>
 <p>&nbsp;</p>
-<p><br /> </p>
