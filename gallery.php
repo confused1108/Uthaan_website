@@ -47,6 +47,9 @@ include 'navbar.php';
             color: #000;
             text-decoration: none;
         }
+        .img-responsive{
+        height:250px;
+         }
     </style>
 
 </head>
