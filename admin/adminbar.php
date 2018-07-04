@@ -17,6 +17,8 @@
     <link href='https://fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lobster+Two:700,700italic' rel='stylesheet' type='text/css'>
+    	<script src="https://cdn.ckeditor.com/4.10.0/standard/ckeditor.js"></script>
+
     <script>
         //fade in-out the page
         $(document).ready(function(){
