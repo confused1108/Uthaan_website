@@ -10,6 +10,9 @@ include 'adminbar.php';
 <html>
 <head>
     <link rel="stylesheet" href="../css/adminform.css">
+    <script>
+			CKEDITOR.replace( 'content' );
+	</script>
 </head>
 <body>
 <br><br><br>
@@ -19,11 +22,10 @@ include 'adminbar.php';
 
         <p>
 
+        <h4 style="text-align: left; color: black"><b>Update:</b> </h4>
 
-        <h4 style="text-align: left; color: black"><b>Note:</b> You need to convert your content into HTML file first<br>
-            <a href="https://wordhtml.com/" target="_blank">Click here</a> and Paste your content in Textarea and copy the <br>HTML file and paste that in Content area</h4>
-        <span class="wpcf7-form-control-wrap Message">
-            <textarea name="content" cols="10" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Update" required></textarea>
+          <span class="wpcf7-form-control-wrap Message">
+            <textarea name="content" cols="10" rows="10" class="ckeditor" aria-invalid="false" placeholder="Update" required></textarea>
           </span>
 
         <br><br>
