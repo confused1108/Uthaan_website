@@ -10,6 +10,9 @@ include 'adminbar.php';
 <html>
 <head>
     <link rel="stylesheet" href="../css/adminform.css">
+    <script>
+			CKEDITOR.replace( 'content' );
+	</script>
 </head>
 <body>
 <br><br><br><br><br>
@@ -21,11 +24,10 @@ include 'adminbar.php';
            <span class="wpcf7-form-control-wrap Name">
              <input type="text" name="heading" value="" size="40" class="nameinput wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Heading" required>
           </span>
+        <h4 style="text-align: left; color: black"><b>Content:</b> </h4>
 
-        <h4 style="text-align: left; color: black"><b>Note:</b> You need to convert your content into HTML file first<br>
-            <a href="https://wordhtml.com/" target="_blank">Click here</a> and Paste your content in Textarea and copy the <br>HTML file and paste that in Content area</h4>
-        <span class="wpcf7-form-control-wrap Message">
-            <textarea name="content" cols="10" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Content" required></textarea>
+         <span class="wpcf7-form-control-wrap Message">
+            <textarea name="content" cols="10" rows="10" class="ckeditor" aria-invalid="false" placeholder="Content" required></textarea>
           </span>
         <span class="wpcf7-form-control-wrap Name">
              <input type="text" name="reporters" value="" size="100" class="nameinput wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Reporters" required>
