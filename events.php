@@ -47,6 +47,9 @@ include "admin/files/connect.php";
         p{
             display: inline;
         }
+        body.modal-open {
+            overflow: visible;
+        }
     </style>
 </head>
 <body>
